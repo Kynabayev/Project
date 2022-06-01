@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .promo__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+        padding-right: 115px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo__header {
+        font-size: 36px;
+    &__subheader {
+        font-size: 20px;
+    }
+    &__inner {
+        img {
+            max-width: 100%;
+        }
+    }
+    }
+}
