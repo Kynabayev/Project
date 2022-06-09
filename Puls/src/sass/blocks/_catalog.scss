@@ -145,7 +145,7 @@
             transform: translateX(0%);
             padding-right: 19px;
             transition: 0.5s all;
-            padding-left: 0;
+            padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
             &_active {
@@ -157,7 +157,7 @@
                 color: #555555;
                 font-size: 14px;
                 font-weight: 300;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 &:before {
                     content: '';
                     position: absolute;
