@@ -1,0 +1,39 @@
+.feed {
+    min-height: 920px;
+    margin-top: 79px;
+    &__item {
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 55px;
+        &:nth-child(2){
+            margin-top: 70px;
+    }
+}
+    &__img {
+        width: 169px;
+        height: 169px;
+}
+    &__text {
+        margin-left: 61px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__count {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        width: 686px;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    &__feed-form_mt25 {
+        margin-top: 25px;
+    }
+}
