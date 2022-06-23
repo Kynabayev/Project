@@ -75,12 +75,12 @@
 
 <section class="consultation">
     <div class="container">
-        <h2 class="title title_left">Получите бесплатную консультациюпо <br> подбору пульсометра </h2>
+        <h2 class="title title_left">Получите бесплатную консультацию по <br> подбору пульсометра </h2>
         <div class="consultation__descr">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</div>
-        <form class="feed-form" action="#">
-        <input required placeholder="Ваше имя">
-        <input required placeholder="Ваше телефон">
-        <input required placeholder="Ваше E-mail">
+        <form id="consultation-form" class="feed-form" action="#">
+        <input name="name"  placeholder="Ваше имя" type="text">
+        <input name="phone" placeholder="Ваше телефон">
+        <input name="email" placeholder="Ваше E-mail" type="email">
 
         <button class="button button_submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
         </form>
@@ -470,9 +470,9 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input required placeholder="Ваше имя" type="text">
-                <input required placeholder="Ваше телефон" type="number">
-                <input required placeholder="Ваше E-mail" type="email">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваше телефон" type="number">
+                <input name="email" placeholder="Ваше E-mail" type="email">
                 <button class="button button_submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
@@ -482,9 +482,9 @@
             <div class="modal__subtitle">Ваш заказ</div>
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input required placeholder="Ваше имя" type="text">
-                <input required placeholder="Ваше телефон" type="number">
-                <input required placeholder="Ваше E-mail" type="email">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваше телефон" type="number">
+                <input name="email" placeholder="Ваше E-mail" type="email">
                 <button class="button button_submit">Купить</button>
             </form>
         </div>
@@ -497,11 +497,10 @@
     </modal>
 
 
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-    <!-- <script src="js/slick.min.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
