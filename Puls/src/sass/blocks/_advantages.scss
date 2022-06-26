@@ -1,10 +1,10 @@
-.advantage {
-    padding: 70px 0 83px 0;
+.advantages {
+    padding: 70px 0 80px 0;
     background-color: #f6f6f6;
     &__wrapper {
+        margin-top: 65px;
         display: flex;
         justify-content: space-between;
-        margin-top: 65px;
     }
     &__item {
         display: flex;
@@ -29,4 +29,12 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        } 
+}
 }
